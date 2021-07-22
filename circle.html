@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web state</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #1a1b2b;
+        }
+        .one{
+            
+            margin: 0;
+            width: 100%;
+            }
+            .tow{
+                margin-left:30px;
+            margin-right: 30px;
+            margin-top: 44px;
+            display: flex;
+            align-items: center;
+        }
+        .tow.img{
+            height: 30px;
+            display: flex;
+            align-items: center;
+        }
+        
+       
+        
+
+        .circle {
+            margin-left:30px;
+            margin-right: 30px;
+            margin-top: 44px;
+            display: flex;
+            justify-content: center;
+
+        }
+
+        .svg {
+            width: 350px;
+            height: 350px;
+        }
+
+        .progress {
+            stroke: url(#orange_red);
+            fill: rgba(0, 0, 0, 0);
+            stroke-width: 22px;
+            stroke-dasharray: 1000;
+        }
+
+        .txt {
+            text-anchor: middle;
+            /* 文本水平居中 */
+            dominant-baseline: middle;
+            /* 文本垂直居中 */
+            font-size: 30px;
+            font-family: Arial;
+        }
+
+        .txt.txt2 {
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="one">
+        <img width="100%" src="./头部栏-1.jpg" alt="">
+    </div>
+    <div class="tow">
+        <div class="towa">
+            <img src="./图层 3.png" alt="">
+        </div>
+        <div class="towb">
+            <img src="./图层 4.png" alt="">
+        </div>
+    </div>
+    <hr>
+    <div class="circle">
+        <svg class="svg">
+            <defs>
+                <linearGradient id="orange_red" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" style="stop-color:#6082ff;stop-opacity:1"></stop>
+                    <stop offset="100%" style="stop-color:#40dcff;stop-opacity:1"></stop>
+                </linearGradient>
+            </defs>
+            <circle r="45%" cy="50%" cx="50%" stroke-width="8" stroke="#EAEFF4" stroke-linejoin="round"
+                stroke-linecap="round" fill="none" />
+            <circle class="progress" r="45%" cy="50%" cx="50%" stroke-width="8" stroke-linejoin="round"
+                stroke-linecap="round" fill="none" />
+            <text x="50%" y="45%" fill="#fff" class="txt">网络正常</text>
+            <text x="50%" y="55%" fill="#b6b6b6" class="txt txt2">当前3台设备连接</text>
+        </svg>
+    </div>
+   
+</body>
+
+</html>
