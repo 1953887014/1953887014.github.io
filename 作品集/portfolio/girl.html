@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./sal/sal.css">
+    <style>
+        html,
+        body,
+        p{
+            margin: 0;
+            padding: 0;
+            font-size: 50px;
+        }
+        a{
+            text-decoration: none;
+        }
+        .author{
+            font-family: "微软雅黑";
+            color: #000;
+            font-size:80;
+            letter-spacing: 0.013em;
+            line-height: 1.25;
+            font-weight: 400;
+            text-transform: none;
+            font-style: normal;
+            margin-left: 3%;
+        }
+        section{
+            margin: 100px 3% 8%;
+            display: flex;
+            justify-content: space-around;
+        }
+        section div{
+            width: 100%;
+        }
+        section div img{
+            width: 100%;
+        }
+        .portfolio .left{
+            margin-left: 3%;
+            margin-top: 6%;
+        }
+        .portfolio .right{
+            padding-top: 8vw;
+            margin-left: 20%;
+        }
+        .portfolio .title{
+            font-family: cursive;
+            margin-top: 5px;
+            font-size: 20px;
+            line-height: 1.25;
+            font-weight: 400;
+        }
+        .portfolio .center {
+            margin-left: 4%;
+           width: 52%;
+        }
+        .portfolio .calendar{
+            width:66%;
+            flex: 1;
+        }
+        .portfolio .sntky {
+            width:56%;
+            margin-left: 8%;
+            margin-top:12%;
+            flex: 1;
+        }
+        .portfolio .in_town {
+            width: 67%;
+        }
+        .portfolio .posters {
+            width: 100%;
+            margin-top: 15%;
+        }
+        .portfolio .phovea {
+        width: 80%;
+        margin-top:20%;
+        }
+        .portfolio .ntky {
+        width: 66%;
+        margin-left: 17%;
+        }
+        .portfolio .huber {
+            width: 90%;
+            margin-top: 10%;
+        }
+        .portfolio .alice {
+            width: 56%;
+            margin-left: 15%;
+            margin-top: 28%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a  href="/">
+            <h1 class="author">MY PORTFOLIO</h1>
+        </a>
+    </header>
+    <section class="portfolio">
+        <div class="left" data-sal="slide-up" data-sal-delay="200" data-sal-easing="ease-out-back">
+            <img src="./images/UI二班谢文静《星》.jpg" alt="">
+            <div class="title">
+                <p>HOME VIDEO</p>
+                <p>BOOK</p>
+            </div>
+        </div>
+        <div class="right" data-sal="slide-up" data-sal-delay="200" data-sal-easing="ease-out-back">
+            <img src="./images/名片.jpg" alt="">
+            <div class="title">
+                <p>TYPOGRAPHY thumb_scholtycinema_posters</p>
+                <p>VARIOUS POSTERS</p>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio">
+        <div class="center" data-sal="slide-up" data-sal-delay="200" data-sal-easing="ease-out-back">
+            <img src="./images/名片2.jpg" alt="">
+            <div class="title">
+                <p>HOME VIDEO</p>
+                <p>BOOK</p>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio left">
+        <div>
+            <div class="calendar" data-sal="slide-up" data-sal-delay="200" data-sal-easing="ease-out-back">
+                <img src="./images/海报.jpg">
+            </div>
+            <div class="title">
+                <p>TYPOGRAPHY thumb_scholtycinema_posters</p>
+                <p>VARIOUS POSTERS</p>
+            </div>
+        </div>
+        <div>
+            <div class="sntky" data-sal="slide-up" data-sal-delay="200" data-sal-easing="ease-out-back">
+                <img src="./images/端午节3.jpg">
+                <div class="title">
+                    <p>VARIOUS POSTERS</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio start">
+        <div>
+            <div class="in_town" data-sal="slide-up" data-sal-delay="200" data-sal-easing="ease-out-back">
+                <img src="./images/耳机.jpg">
+            </div>
+            <div class="title">
+                <p>TYPOGRAPHY thumb_scholtycinema_posters</p>
+                <p>VARIOUS POSTERS</p>
+            </div>
+        </div>
+        <div>
+            <div class="posters" data-sal="slide-up" data-sal-delay="200" data-sal-easing="ease-out-back">
+                <img src="./images/谢文静-2.jpg">
+                <div class="title">
+                    <p>VARIOUS POSTERS</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section  class="portfolio start mb0">
+        <div>
+            <div class="phovea" data-sal="slide-up" data-sal-delay="200" data-sal-easing="ease-out-back">
+                <img src="./images/谢文静内页.jpg">
+            </div>
+            <div class="title">
+                <p>TYPOGRAPHY thumb_scholtycinema_posters</p>
+                <p>VARIOUS POSTERS</p>
+            </div>
+        </div>
+        <div>
+            <div class="ntky" data-sal="slide-up" data-sal-delay="200" data-sal-easing="ease-out-back">
+                <img src="./images/谢文静.jpg">
+                <div class="title">
+                    <p>VARIOUS POSTERS</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section  class="portfolio start">
+        <div>
+            <div class="huber" data-sal="slide-up" data-sal-delay="200" data-sal-easing="ease-out-back">
+                <img src="./images/谢文静登录.jpg">
+            </div>
+            <div class="title">
+                <p>TYPOGRAPHY thumb_scholtycinema_posters</p>
+                <p>VARIOUS POSTERS</p>
+            </div>
+        </div>
+        <div>
+            <div class="alice" data-sal="slide-up" data-sal-delay="200" data-sal-easing="ease-out-back">
+                <img src="./images/返利颜色-4.jpg">
+                <div class="title">
+                    <p>VARIOUS POSTERS</p>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+
+
+    <footer>
+        <a href="/">© kdshy</a>
+    </footer>
+    <script src="./sal/sal.js"></script>
+    <script>
+        sal()
+    </script>
+</body>
+</html>
